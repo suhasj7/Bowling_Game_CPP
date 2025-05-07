@@ -1,17 +1,17 @@
 {
+    "version": "2.0.0",
     "configurations": [
         {
-            "name": "C/C++: cl.exe build and debug active file",
+            "name": "C/C++: cl.exe build and debug",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "program": "${workspaceFolder}/BowlingGame.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "console": "integratedTerminal",
-            "preLaunchTask": "C/C++: cl.exe build active file"
+            "preLaunchTask": "C/C++: cl.exe build project"
         }
-    ],
-    "version": "2.0.0"
+    ]
 }
